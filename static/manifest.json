@@ -11,6 +11,7 @@
     "icons": [
         {
             "src": "/téléchargement.png",
+            "type": "image/png",
             "sizes": "1024x1024"
         }
     ]
