@@ -10,9 +10,9 @@
     "orientation": "any",
     "icons": [
         {
-            "src": "téléchargement.png",
+            "src": "./téléchargement",
             "type": "image/png",
-            "sizes": "1024x1024"
+            "sizes": "200x200"
         }
     ]
 }
