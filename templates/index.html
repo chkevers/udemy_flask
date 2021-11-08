@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
     <link rel="manifest" href="/static/manifest.json">
     <link rel="apple-touch-icon" sizes="200x200" href="/static/téléchargement.png">
-    <link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)" href="/static/téléchargement.png">
+    <link rel="apple-touch-startup-image" media="(device-width: 750px) and (device-height: 1334px) and (-webkit-device-pixel-ratio: 3)" href="/static/téléchargement.png">
 </head>
 <body>
   <!--Start Accordion items-->
@@ -22,7 +22,11 @@
           </h2>
           <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <strong>This is the first item's accordion body.</strong>
+              <div id="date-picker-example" class="md-form md-outline input-with-post-icon datepicker">
+                <input placeholder="Select date" type="text" id="example" class="form-control">
+                <label for="example">Try me...</label>
+                <i class="fas fa-calendar input-prefix" tabindex=0></i>
+              </div>
             </div>
           </div>
         </div>
@@ -53,6 +57,8 @@
       </div>
         <!--Test Alert-->
         <!-- <script>alert('Test Alert on mobile')</script> -->
+        <!--Start Sidebar-->
+        
         <!--Start Carroussel-->
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-indicators">
