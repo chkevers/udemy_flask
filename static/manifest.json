@@ -1,6 +1,7 @@
 {
-    "name": "Christophe Kevers",
+    "name": "Les Boubies",
     "short_name": "Les Boubies",
+    "app_name": "Les Boubies",
     "theme_color": "#ffcbe4",
     "background_color": "#fa99ca",
     "display": "standalone",
