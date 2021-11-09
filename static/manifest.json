@@ -1,0 +1,19 @@
+{
+    "name": "Les Boubies",
+    "short_name": "Les Boubies",
+    "app_name": "Les Boubies",
+    "theme_color": "#ffcbe4",
+    "background_color": "#fa99ca",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "https://flask-one-ck.herokuapp.com/",
+    "description": "Test for pwa",
+    "orientation": "any",
+    "icons": [
+        {
+            "src": "https://icons.iconarchive.com/icons/google/noto-emoji-travel-places/512/42682-rainbow-icon.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}
