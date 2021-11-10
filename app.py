@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request, redirect, url_for
 
 app = Flask(__name__)
 
@@ -6,8 +6,15 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-@app.route('/')
+@app.route('/', methods=['POST', 'GET'])
 def login():
+    error = None
+    if request.method == 'POST':
+        if request.form['bipuser'] == 'chkevers' and request.form['bippw'] == 'admin':
+            return redirect(url_for('index'))
+        else:
+            error = 'Invalid Credentials. Please try again'
+            return render_template('login.html', error=error)
     return render_template('login.html')
 
 if __name__ == "__main__":
