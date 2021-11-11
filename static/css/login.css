@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Verdana', sans-serif;
+  }
+  html, body{
+    height: 100%;
+  }
+  body{
+    display: grid;
+    grid-template-rows: 1fr 50px;
+    background: linear-gradient(to bottom, #7927b2, #fb3182);
+    justify-content: center;
+    align-items: center;
+  }
+  .container{
+    width: 90%;
+    height: 400px;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 30px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .msg{
+    font-size: 90px;
+    font-weight: bold;
+    background: linear-gradient(to right, #7927b2, #fb3182);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    max-width: 350px;
+    text-transform: uppercase;
+    line-height: .77;
+  }
+  footer{
+    background: tomato;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  footer a{
+    text-decoration: none;
+  }
+
+  .caption {
+      font-size: 20px;
+      font-family: "Lucida Handwriting", cursive;
+  }
