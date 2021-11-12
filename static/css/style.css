@@ -4,3 +4,7 @@ body {
     justify-content: center;
     background-color: #c91e65;
   }
+
+  h2 {
+    color: red;
+  }
