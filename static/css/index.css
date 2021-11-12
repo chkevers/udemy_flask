@@ -1,8 +1,15 @@
 body {
+    display: grid;
     justify-content: center;
-    background-color: #1ec943;
+    background-color: #c91e65;
   }
 
   h2 {
     color: red;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: center;
+    justify-items: left;
   }
