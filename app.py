@@ -2,6 +2,10 @@ from flask import Flask, render_template, request, redirect, url_for
 
 app = Flask(__name__)
 
+@app.route('/home')
+def welcome():
+    return render_template('home.html')
+
 @app.route('/index')
 def index():
     return render_template('index.html')
