@@ -12,8 +12,14 @@
     <link rel="apple-touch-startup-image" href="/static/téléchargement.png">
 </head>
 <body>
-    <div style="padding-left: 10px;">
-    <h1>Welcome to the app</h1>
+    <div class="box-item">
+    <div>
+        <h1>Welcome to the app</h1>
+    </div>
+    <br>
+    <br>
+    <div class="gradient-border" id="box" style="padding-left: 10px;">
+    
     <form action="" method="post">Please enter your credentials
     <br>
     <br>
@@ -32,11 +38,12 @@
     <br> -->
     <br>
     <br>
-    <input type="submit" class="btn btn-success"></input>
+    <input type="submit" class="btn btn-success" id="wrapper"></input>
     </form>
     {% if error %}
     <p style="color: red;"><strong>Error: {{ error }}</strong></p>
     {% endif %}
+    </div>
     </div>
     <script>
         if (!navigator.serviceWorker.controller) {
