@@ -10,6 +10,10 @@ def welcome():
 def index():
     return render_template('index.html')
 
+@app.route('/albums')
+def album_page():
+    return render_template('albums.html')
+
 @app.route('/', methods=['POST', 'GET'])
 def login():
     error = None
